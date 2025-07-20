@@ -1,33 +1,40 @@
-# 5V Power Supply PCB
+# 5V Regulated Power Supply – PCB Design Project
 
-A simple linear voltage regulator-based power supply PCB that converts 9V/12V DC input to a stable 5V output using the LM7805 IC.
+This project is a simple and efficient 5V power supply board designed using **KiCad**. It uses the LM7805 voltage regulator to provide a steady 5V DC output from a higher DC input (e.g., 9V–12V adapter or battery).
 
-## 📌 Features
-- Input: 7V–12V DC
-- Output: Regulated 5V DC
-- Components: LM7805, capacitors, DC jack, LED indicator
-- Designed in KiCad, ready for fabrication
+## ⚙️ Features
 
-## 📷 Screenshots
-![Schematic](./images/schematic.png)
-![PCB Layout](./images/layout.png)
-![3D View](./images/3d.png)
+- Provides regulated 5V output
+- Input voltage range: 7V to 12V DC
+- LED indicator for power status
+- Designed and routed in KiCad
+- Output via terminal block for easy connection
 
-## 🛠️ Tools Used
-- KiCad 7.0
-- SnapEDA for footprints
-- EasyEDA (optional simulation)
+## 🧠 Learning Outcomes
 
-## 📦 Files Included
-- Schematic (.sch, PDF)
-- PCB Layout (.kicad_pcb)
-- Gerber Files
-- Bill of Materials (BOM)
+- Understanding of voltage regulation using LM7805
+- Schematic capture and PCB layout in KiCad
+- Designing with basic components like resistors, capacitors, diodes, LEDs
+- Generating Gerber files and PCB 3D visualization
 
-## 📥 How to Use
-- Import Gerbers into your preferred PCB fabricator (e.g., JLCPCB)
-- Solder components as per BOM
-- Power via DC jack or screw terminals
+## 📁 Files Included
 
-## 🔗 Author
-[Aakanksh Mohanty](https://www.linkedin.com/in/your-link/)
+- `.sch` – Schematic file
+- `.kicad_pcb` – PCB layout file
+- `Gerber.zip` – Fabrication files
+
+## 🚀 Future Improvements
+
+- Add USB output port
+- Use switching regulator for better efficiency
+- Include fuse or protection circuitry
+
+## 📌 Notes
+
+This project was completed as part of my early PCB design learning journey using KiCad. Feedback and suggestions are welcome!
+
+---
+
+If you use this or make changes, don't forget to upload:
+- Your **schematic and PCB files**
+- A **clear image of the board layout or 3D render**
