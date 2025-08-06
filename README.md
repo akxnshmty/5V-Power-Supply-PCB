@@ -21,7 +21,6 @@ This project is a simple and efficient 5V power supply board designed using **Ki
 
 - `.sch` – Schematic file
 - `.kicad_pcb` – PCB layout file
-- `Gerber.zip` – Fabrication files
 
 ## 🚀 Future Improvements
 
@@ -35,6 +34,5 @@ This project was completed as part of my early PCB design learning journey using
 
 ---
 
-If you use this or make changes, don't forget to upload:
-- Your **schematic and PCB files**
-- A **clear image of the board layout or 3D render**
+Happy PCB Designing
+
